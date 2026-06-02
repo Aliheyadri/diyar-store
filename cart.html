@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سبد خرید</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">دیاراستور</div>
+    <ul class="nav-links">
+      <li><a href="index.html">خانه</a></li>
+      <li><a href="boys.html">پسرانه</a></li>
+      <li><a href="girls.html">دخترانه</a></li>
+      <li><a href="cart.html">سبد خرید (<span id="cart-count">0</span>)</a></li>
+      <li><a href="about.html">درباره ما</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="container">
+  <h2 class="section-title">سبد خرید</h2>
+
+  <div class="cart-box">
+    <div id="cart-items"></div>
+    <div class="total">مجموع: <span id="total-price">0</span> تومان</div>
+    <br>
+    <button class="add-btn" onclick="clearCart()">پاک کردن سبد خرید</button>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2026 دیاراستور</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
