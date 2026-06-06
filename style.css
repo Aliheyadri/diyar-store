@@ -42,6 +42,8 @@ header {
   font-weight: bold;
 }
 
+.img-logo img{width: 100px;height: 100px;margin-right: 1350px;}
+
 .nav-links {
   display: flex;
   list-style: none;
